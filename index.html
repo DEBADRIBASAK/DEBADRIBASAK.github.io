@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
+<!-- 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="jquery-ajaxchimp.min.js"></script>
+	<script type="text/javascript" src="jquery-ajaxchimp.min.js"></script> -->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,31 +14,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet"> 
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 	<title>
 		Debadri's Web Resume
 	</title>
 </head>
 <body>
-<!-- 	<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <nav class="nav navbar-nav">
-      <li class="l1"><a href="#">Home</a></li>
-      <li class="l1"><a href="#About">About</a></li>
-      <li class="l1"><a href="#Skills">Skills</a></li>
-      <li class="l1"><a href="#Achievements">Achievements</a></li>
-    </nav>
-  </div>
-</nav> --><!-- <br><br> -->
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse bar">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -46,14 +29,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">Debadri Basak</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="l1"><a href="#">Home</a></li>
       <li class="l1"><a href="#About">About</a></li>
       <li class="l1"><a href="#Skills">Skills</a></li>
-      <li class="l1"><a href="#Achievements">Achievements</a></li>      </ul>
+      <li class="l1"><a href="#Achievements">Achievements</a></li>     
+      </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -63,78 +47,54 @@
 </nav>
 
 <div class="jumbotron cf-1 text-center">
-	<br>
-		<img src="FB_IMG_1486723594163.jpg" alt="my pic" class=" img img-circle img-responsive center-block i1"></img>
-	<!--h1 style="align-content: right">*</h1-->
-		<br>
+	<!-- <br>
+		<img src="mypic.jpg" alt="my pic" class=" img img-circle img-responsive center-block i1"></img>
+	-->
 	<h1>DEBADRI BASAK</h1><br>
-		<a href="Resume.pdf" target="_blank" class="btn btn-lg btn-success">Resume</a>
+		<a href="Resume.pdf" target="_blank" class="btn btn-lg b1">Resume</a>
 </div>
-<div class="jumbotron text-center cf-3">
-	<blockquote class="cf-2 bq">
+<!-- <div class="jumbotron text-center cf-3"> -->
+	<div class="cf-2 text-center bq">
 			"Arise, awake, and stop not till the goal is reached"
                                              
 
                                              - Swami Vivekananda		
-		</blockquote>
-	</div>
-<div class="container-fluid">
+		</div>
+	<!-- </div> -->
+<div class="container-fluid" id="About" style="background-color: #ffffff">
 	<!--About-->
-	<div class="container-fluid flip-container crd1" ontouchstart="this.classList.toggle('hover');" id="About">
-	<div class="flipper">
-	  <div class="container front" style="background-color: #ff9966">
+	  <div class="row">
+	  	<div class="col-md-4 text-center" style="padding-top: 5em">
 			<h1>About Me</h1>
 			<br>
-			<div class="fa fa-question" style="width: 100px;height: 100px;color: #ff0066;font-size: 150px">
+			<div class="fa fa-question" style="width: 100px;height: 100px;font-size: 150px">
 				
 			</div>
 		</div>
-		<div class="container back" style="background-color: #99ff99">
-			<h1 class="heading">About</h1>
+		<div class="col-md-8 text-center" style="font-size: 2em;padding-top: 5em;padding-bottom: 5em">
 			<p>
 				I am a student of Computer Science and Engineering undergraduate at National Institute of Technology, Warangal. I learned to code in the first year of my B.Tech curriculum and from that very point of time, I started to love coding. I am passionate about exploring several fields of Computer Science and learn something new in them.My interests mainly include:
 			</p>	
-			<ul>
-				<li>Data Structures and Algorithms</li>
-				<li>Competitive Coding</li>
-				<li>Machine learning(I am hugely interested in this field, but I only some theoretical exposure, no practical experience)</li>
-			</ul>
-			<p>
-				Apart from Computer Science, my other hobbies include:
-			</p>
-			<ul>
-				<li>Reading</li>
-				<li>Writing</li>
-				<li>Painting</li>
-			</ul>
-	<!-- back content -->
 		</div>
-	</div>
-	</div>
-	<br><br>
-	<div class="container-fluid flip-container crd1" ontouchstart="this.classList.toggle('hover');" id="Skills">
-	<div class="flipper">
-	<div class="container front" style="background-color: #66ff33">
-			<h1>Skills</h1>
-			<br>
-			<div class="fa fa-code text-center" style="color: #39e600;font-size: 150px">
-				
-			</div>
-		</div>
-		<div class="back" style="background-color: #ff99ff">
-			<h1 class="heading">Skills</h1>
-			<div class="col-md-4">
+	  </div>
+	 </div>
+	<br>
+	<div class="container-fluid front" id="skill" style="background-color: #ffffff">
+		<div class="row">
+<!-- 			<div class="col-md-9 text-center" style="font-size: 1.5em;padding-top: 5em;padding-bottom: 5em">
+				<div class="col-md-4">
 				<h3>Programming Languages:</h3>
 				<ul>
 					<li>C++</li>
 					<li>Java</li>
-					<li>Python 3.6</li>
+					<li>Python</li>
 				</ul>
 			</div>
 			<div class="col-md-4">
 				<h3>Frameworks:</h3>
 				<ul>
-				<li>Bootstrap</li>
+				<li>React </li>
+				<li>PyTorch</li>
 				<li>Django 2.0</li>
 				</ul>
 			</div>
@@ -145,21 +105,55 @@
 					<li>AutoCAD</li>
 				</ul>
 			</div>
-		</div>
-	</div>
-	</div>
-	<br><br>
-			<div class="container-fluid flip-container crd1" ontouchstart="this.classList.toggle('hover');" id="Achievements">
-	<div class="flipper">
-		<div class="container front" style="background-color: #ffe000">
-			<h1>Achievements</h1><br>
-			<div class="fa fa-trophy text-center" style="color: #ffbf00;font-size: 150px">
+			</div> -->
+			<div class="col-md-9" style="padding-top: 3em;padding-left: 7em">
+			<div class="row" style="padding-left: 3em">
+				<div class="col-md-2">
+					<img src="c++.png" class="skill">
+				</div>
+<div class="col-md-2">
+					<img src="java.png" class="skill">
+				</div>
+				<div class="col-md-2">
+					<img src="python.png" class="skill">
+				</div>
+				<div class="col-md-2">
+					<img src="latex.png" class="skill">
+				</div>
 				
 			</div>
+			<div class="row" style="padding-left: 3em;padding-top: 2em">
+				<div class="col-md-2">
+					<img src="pytorch.png" class="skill">
+				</div><div class="col-md-2">
+					<img src="tf.png" class="skill">
+				</div><div class="col-md-2">
+					<img src="react.webp" class="skill">
+				</div><div class="col-md-2">
+					<img src="django.png" class="skill">
+				</div>
+			</div>
 		</div>
-		<div class="back" style="background-color: #99ccff;padding-left: 10px">
-			<h1 class="heading">Achievements</h1>
-			<h3><b>Education and Test Scores:</b></h3>
+			<div class="col-md-3 text-center" style="padding-top: 5em;padding-bottom: 5em;">
+			<h1>Skills</h1>
+			<div class="fa fa-code" style="font-size: 150px">
+			</div>
+			
+		</div>
+			</div>
+		
+	</div>
+	<br>
+		<div class="container-fluid" id="Achievements" style="background-color: #ffffff">
+			<div class="row">
+				<div class="col-md-3 text-center" style="padding-top: 5em;padding-bottom: 5em">
+					<h1>Achievements</h1><br>
+			<div class="fa fa-trophy" style="font-size: 150px;">
+				
+			</div>
+				</div>
+				<div class="col-md-9" style="font-size: 2em;padding-top: 5em;padding-bottom: 5em">
+					<h3><b>Education and Test Scores:</b></h3>
 			<ul>
 				<li>NIT Warangal, Computer Science and Engineering, B.Tech --CGPA: 9.6 (on a scale of 10)</li>
 				<li>
@@ -185,17 +179,19 @@ Secondary Examination (Class
 <li>School topper in Madhyamik
 (Class 10 Board Examination)--May 2014</li>
 			</ul>
+				</div>
+			</div>
+			
+						
+
 		</div>
-	</div>
-	</div>
-	<br><br>
-</div>
+<br><
 <div class="container-fluid text-center mess">
 	<h2 style="color: white">Contact Me</h2>
 	<form action="https://formspree.io/debadri1010@gmail.com"
       method="POST" >
-    <input type="email" name="_replyto" style="width: 50%;height: 30%;border-radius: 5px" placeholder="Email ID"><br><br>
-    <textarea placeholder="Write Something..." name="message" style="width: 50%;height: 200px;border-radius: 5px">
+    <input type="email" name="_replyto" style="width: 50%;height: 30%" placeholder="  Email ID"><br><br>
+    <textarea placeholder="  Write Something..." name="message" style="width: 50%;height: 200px">
     </textarea><br><br>
     <input type="submit" name="submit_button" class="btn btn-lg btn-primary"><br>
 </form>

@@ -5,32 +5,57 @@ body{
 .q-1{
 			font-size: 40px;
 		}
+.b1{
+	border: 1px solid black;
+	color: black;
+	transition: 1s;
+}
+.b1:hover{
+	color: 
+}
+.l1{
+	color: #0000ff;
+}
+.bar{
+	background-color: #000000;
+}
 		.cf-1{
 			text-align: center;
-			background-color: #99ccff;
-			box-shadow: 0px 5px 5px rgb(0,0,0,0.3);
+			/*background-color: #99ccff;*/
+/*			opacity: 0.5;
+*/			background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url('back.jpg');
+			/*box-shadow: 0px 5px 5px rgb(0,0,0,0.3);*/
+			padding-top: 10em;
+			padding-bottom: 10em;
 		}
-		.cf-3{
-			background-color: #ff0066;
+		/*.cf-3{
+			background-color: #000000;
 			border-radius: 10px;
 			box-shadow: 5px 5px 5px rgb(0,0,0,0.3);
 			/*color: #ffffff;*/
-		}
+		/*}*/
+		/*.cf-3:hover{
+			border: 2px solid white;
+		}*/
 		.cf-2{
-			background-color: #ff0066;
+			background-color: #000000;
 			color: #ffffff;
+			font-family: 'Dancing Script', cursive;
+			transition: 1s;
+			padding-top: 1.5em;
+			padding-bottom: 1.5em;
+			font-size: 3em;
 		}
 		.i1{
 			width: 200px;
 			height: 250px;
 			box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+			transition: 1s;
 		}
 		.l1:hover{
-			background-color:  #ff0000;
+			background-color:  #3503fc;
 			color: #000000;
-		}
-		.bq{
-			font-size: 35px;
+			transition: 1s;
 		}
 		.crd1{
 			min-height: 300px;
@@ -39,6 +64,39 @@ body{
 		.flip-container:hover .flipper, .flip-container.hover .flipper {
 		transform: rotateX(-180deg);
 	}
+	
+#About{
+	background-size: 100% 200%;
+    background-image: linear-gradient(to top, #a366ff 50%, white 50%);
+    transition: 1s;
+}
+#About:hover {
+    background-position: 0 -100%;
+    color: white;
+    transition: 1s;
+}
+#skill{
+	background-size: 100% 200%;
+    background-image: linear-gradient(to top,#ff3385 50%,white 50%);
+    transition: 1s;
+}
+#skill:hover {
+    background-position: 0 -100%;
+    color: white;
+    transition: 1s;
+}
+#Achievements{
+	background-size: 100% 200%;
+    background-image: linear-gradient(to top, #0066ff 50%, white 50%);
+    transition: 1s;
+}
+#Achievements:hover{
+	background-position: 0 -100%;
+    color: white;
+    transition: 1s;
+}
+
+
 	.flipper {
 		min-height: 300px;
 		width: 100%;
@@ -46,36 +104,31 @@ body{
 	transition: 0.9s;
 	transform-style: preserve-3d;
 	position: relative;
-	border-radius: 15px;
+	margin: absolute;
+	float: left;
 }
-.front, .back {
+.skill{
+	width: 7em;
+	height: 7em;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px rgb(0,0,0,0.3);
+	opacity: 1;
+}
+.front{
 	min-height: 300px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: 20px;
 	opacity: 1;
 	backface-visibility: hidden;
-	position: absolute;
+	margin: auto;
+	position: relative;
 	top: 0;
 	left: 0;
-	border-radius: 15px;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-}
-.front {
-	z-index: 2;
-	height: auto;
-	width: 100%;
-	text-align: center;
-	/* for firefox 31 */
-	transform: rotateX(0deg);
+	/*box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);*/
 }
 
 /* back, initially hidden pane */
-.back {
-	height: auto;
-	width: 100%;
-	transform: rotateX(180deg);
-}
 body{
 	background-color: #000000;
 }
@@ -86,7 +139,7 @@ body{
     width: 100%;
     min-height: 200px;
     height: auto;
-    background-color: #000000;
+    background-color: #404040;
     padding-top: 30px;
     padding-left: 10px;
     color: white;
@@ -106,9 +159,12 @@ body{
 }
 .mess{
 	text-align: center;
-	background-color: #0099ff;
+	background-color: #000000;
 	min-height: 300px;
 	height: auto;
 	padding-top: 30px;
 	padding-bottom: 20px;
+}
+.fa{
+	border-color: 1x solid white;
 }
