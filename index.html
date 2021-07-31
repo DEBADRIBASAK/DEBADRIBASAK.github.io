@@ -15,6 +15,7 @@
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
 	<title>
 		Debadri's Web Resume
 	</title>
@@ -112,7 +113,7 @@
 					<img src="c++.png" class="skill">
 				</div>
 <div class="col-md-2 col-sm-2">
-					<img src="java.png" class="skill">
+					<img src="java2.jpg" class="skill">
 				</div>
 				<div class="col-md-2 col-sm-2">
 					<img src="python.png" class="skill">
@@ -127,8 +128,8 @@
 					<img src="pytorch.png" class="skill">
 				</div><div class="col-md-2 col-sm-2">
 					<img src="tf.png" class="skill">
-				</div><div class="col-md-2 col-sm-2">
-					<img src="react.webp" class="skill">
+<!-- 				</div><div class="col-md-2 col-sm-2">
+					<img src="react.webp" class="skill"> -->
 				</div><div class="col-md-2 col-sm-2">
 					<img src="django.png" class="skill">
 				</div>
@@ -189,9 +190,9 @@ Secondary Examination (Class
 <div class="container-fluid text-center mess">
 	<h2 style="color: white">Contact Me</h2>
 	<form action="https://formspree.io/debadri1010@gmail.com"
-      method="POST" >
-    <input type="email" name="_replyto" style="width: 50%;height: 30%" placeholder="  Email ID"><br><br>
-    <textarea placeholder="  Write Something..." name="message" style="width: 50%;height: 200px">
+      method="POST" onsubmit="clearStuff()">
+    <input type="email" id='email' name="_replyto" style="width: 50%;height: 30%" placeholder="  Email ID"><br><br>
+    <textarea placeholder="  Write Something..." id='text-content' name="message" style="width: 50%;height: 200px">
     </textarea><br><br>
     <input type="submit" name="submit_button" class="btn btn-lg btn-primary"><br>
 </form>
@@ -208,5 +209,15 @@ Secondary Examination (Class
 	<div class="container-fluid text-center" style="text-align: center">&#9400; Created By Debadri Basak</div>
 </div>
 </footer>
+<script type="text/javascript">
+	function clearStuff(){
+		document.getElementById('email').value = '';
+		document.getElementById('text-content').value = '';
+	}
+	window.onload = ()=>{
+		document.getElementById('email').value = '';
+		document.getElementById('text-content').value = '';
+	}
+</script>
 </body>
 </html>

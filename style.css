@@ -110,9 +110,9 @@ body{
 .skill{
 	width: 7em;
 	height: 7em;
-	border: 1px solid black;
+/*	border: 1px solid black;
 	box-shadow: 5px 5px 5px rgb(0,0,0,0.3);
-	opacity: 1;
+	opacity: 1;*/
 }
 .front{
 	min-height: 300px;
