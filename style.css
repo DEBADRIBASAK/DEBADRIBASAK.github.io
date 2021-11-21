@@ -10,9 +10,7 @@ body{
 	color: black;
 	transition: 1s;
 }
-.b1:hover{
-	color: 
-}
+
 .l1{
 	color: #0000ff;
 }
@@ -72,6 +70,16 @@ body{
 }
 #About:hover {
     background-position: 0 -100%;
+    color: white;
+    transition: 1s;
+}
+#MyFavourites {
+	background-size: 100% 200%;
+    background-image: linear-gradient(to bottom,white 50%,  #8f6abe 50%);
+    transition: 1s;
+}
+#MyFavourites:hover {
+    background-position: 0 100%;
     color: white;
     transition: 1s;
 }
