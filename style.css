@@ -176,3 +176,16 @@ body{
 .fa{
 	border-color: 1x solid white;
 }
+
+#email{
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+
+#text-content{
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
